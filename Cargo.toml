@@ -1,0 +1,13 @@
+[package]
+name = "lau-naturality-boundary"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-naturality-boundary"
+description = "The Naturality Boundary — where compile-time mathematics ends and runtime computation begins, bounded by Kolmogorov complexity"
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
